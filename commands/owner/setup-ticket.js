@@ -4,7 +4,7 @@ const { MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('setup-ticket')
-        .setDescription('Mettez en place le système de ticket.'),
+        .setDescription('Configurar o sistema de tíquetes.'),
     async execute(interaction) {
         const authorizedIDs = ["1161617086678835213", "1064407279903985794"];
         const userId = interaction.user.id;
